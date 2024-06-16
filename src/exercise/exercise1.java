@@ -31,8 +31,8 @@ public class exercise1 {
 		
 		WebElement dateOfBirth = driver.findElement(By.cssSelector("label[for$='dateofBirth']"));
 		driver.findElement(with(By.cssSelector("input[class='form-control']:nth-child(2)")).below(dateOfBirth)).sendKeys("10/26/1994");
-		
-		
+		System.out.println("Hello world");
+		System.out.println("Hello world1");
 	}
 
 }
