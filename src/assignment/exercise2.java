@@ -22,6 +22,7 @@ public class exercise2 {
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@class=' _1-SOk']"))).click();
 		Alert alert = driver.switchTo().alert();
 		alert.accept();
+		System.out.println("Milan");
 		driver.quit();
 	}
 
