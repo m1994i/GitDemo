@@ -16,6 +16,7 @@ public class exercise2 {
 		System.setProperty("webdriver.chrome.driver", "/Users/Pc/Desktop/It akademija/Udemy academy/Chromedriver/chromedriver-win64/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://best.aliexpress.com/");
+		driver.manage().window().maximize();
 		//Thread.sleep(2000);
 		//driver.findElement(By.xpath("//div[@class=' _1-SOk']")).click();
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
@@ -23,6 +24,7 @@ public class exercise2 {
 		Alert alert = driver.switchTo().alert();
 		alert.accept();
 		System.out.println("Milan");
+		System.out.println("Ivanovic");
 		driver.quit();
 	}
 

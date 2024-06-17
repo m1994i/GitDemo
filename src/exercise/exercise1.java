@@ -33,6 +33,10 @@ public class exercise1 {
 		driver.findElement(with(By.cssSelector("input[class='form-control']:nth-child(2)")).below(dateOfBirth)).sendKeys("10/26/1994");
 		System.out.println("Hello world");
 		System.out.println("Hello world1");
+		
+		System.out.println("Hello world2");
+		System.out.println("Hello world3");
+		System.out.println("Hello world4");
 	}
 
 }
